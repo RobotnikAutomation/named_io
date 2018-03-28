@@ -1,0 +1,38 @@
+# Change the name and the numbers if needed
+# Inputs
+inputs:
+  e_stop_ch1:
+    - number: 41
+  e_stop_ch2:
+    - number: 42 
+  s3_elevator_down:
+    - number: 47
+  s4_elevator_up:
+    - number: 48
+  k8_elevator_down:
+    - number: 139
+  k9_elevator_up:
+    - number: 140
+  emergency:
+    - number: 49
+  auto_mode:
+    - number: 50
+
+# Outputs
+outputs:
+  e_stop:
+    - number: 1
+  manual_release:
+    - number: 2
+  bumper_override:
+    - number: 3
+  loaded:
+    - number: 4
+  elevator_up:
+    - number: 5
+  elevator_down:
+    - number: 6
+  turn_left:
+    - number: 7
+  turn_right:
+    - number: 8

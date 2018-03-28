@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+    <rosparam file="$(find named_io)/config/config.yaml" command="load"/>
+    
+    <node pkg ="named_io" type ="named_io_node.py" name ="named_io_node" output ="screen">
+    </node>
+
+</launch>
